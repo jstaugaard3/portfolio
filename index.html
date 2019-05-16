@@ -1,0 +1,225 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Import font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="public/assets/css/style.css">
+    <title>Haverford Technologies</title>
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <header>
+        <nav class="nav-wrapper transparent">
+            <div class="container">
+                <a href="" class="brand-logo">Haverford Technologies</a>
+                <a href="" class="sidenav-trigger" data-target="mobile-menu">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="https://www.linkedin.com/in/joe-staugaard-cfa-2581976"
+                            class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="LinkeIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a></li>
+                    <li><a href="https://twitter.com/JoeStaugaard"
+                            class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a></li>
+                </ul>
+                <ul class="sidenav grey lighten-2" id="mobile-menu">
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- grid -->
+    <section class="container section scrollspy" id="projects">
+        <div class="row">
+            <div class="col s12 l4">
+                <img src="public/assets/img/bidIStock.jpg" alt="BidSamaritan" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <h2 class="indigo-text text-darken-4">BidSamaritan</h2>
+                <p>BidSamaritan is an ad-joc job bidding platform. BidSamaritan was founded on the basis of quickly and
+                    excitingly connecting handymen and caretakers with people in need of said services. Primary
+                    technologies used: Express, Node, Passport, MySQL, Sequelize, Handlebars, JawsDB.</p>
+                <p><a href="https://bidsamaritan.herokuapp.com/" class="">Try It!</a></p>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col s12 l4 push-l7 offset-l1">
+                <img src="public/assets/img/burgerIStock.jpg" alt="" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 pull-l5 right-align offset-l1">
+                <h2 class="indigo-text text-darken-4">Eat the Burger!</h2>
+                <p>Eat the Burger! is a web based application for the burger enthusiast. Keep track
+                    of the burgers you have eaten, and a list of the ones you have not gotten to yet.
+                    Primary technologies used: Express, Node, MySql, Handlebars, JawsDB
+                </p>
+                </p>
+                <p><a href="https://dry-basin-68911.herokuapp.com/" class="">Try It!</a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l4">
+                <img src="public/assets/img/friendsIStock.jpg" alt="" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <h2 class="indigo-text text-darken-4">Friend Finder</h2>
+                <p>Friend Finder is a web based application to help users identify potential friends based upon
+                    a set of questions and ranking the most likely friends. Primary technologies used: Express.</p>
+                <p><a href="https://protected-crag-27972.herokuapp.com/" class="">Try It!</a></p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- parallax -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="public/assets/img/philiIStock.jpg" alt="" class="responsive-img">
+        </div>
+    </div>
+
+    <!-- services / tabs -->
+    <section class="section container scrollspy" id="services">
+        <div class="row">
+            <div class="col s12 l4">
+                <h2 class="indigo-text text-darken-4">What we do..</h2>
+                <p>Work with clients to understand their goals, objectives, and business needs.</p>
+                <p>Develop cost effective solutions to drive business requirements.</p>
+            </div>
+            <div class="col s12 l6 offset-l2">
+                <!-- tabs -->
+                <ul class="tabs">
+                    <li class="tab col s6">
+                        <a href="#photography" class="active indigo-text text-darken-4">Full Stack Development</a>
+                    </li>
+                    <li class="tab col s6">
+                        <a href="#editing" class="indigo-text text-darken-4">Consulting</a>
+                    </li>
+                </ul>
+                <div id="photography" class="col s12">
+                    <p class="flow-text indigo-text text-darken-4">Full Stack Development</p>
+                    <p>From conceptual brain storming to final deployment.</p>
+                    <p>We can build your web application from a simple html place holder page to an integrated ecommerce
+                        platform to advance your business.</p>
+                </div>
+                <div id="editing" class="col s12">
+                    <p class="flow-text indigo-text text-darken-4">Consulting</p>
+                    <p>Full stack web development with a significant C-Level business background.</p>
+                    <p>Let's work together to understand your business needs and how technology can 
+                        advance your goals.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- parallax-->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="public/assets/img/skyIStock.jpg" alt="" class="responsive-img">
+        </div>
+    </div>
+
+    <!-- contact form-->
+    <section class="section container scrollspy" id="contact">
+        <div class="row">
+            <div class="col s12 l5">
+                <h2 class="indigo-text text-darken-4">Get In Touch</h2>
+                <p>Please use the form to the right to drop us a note and a day you would like to speak.</p>
+                <p>You can also email us at info@gmail.com.</p>
+                <p>Or write to us at Haverford Technologies, 551 W. Lancaster Avenue, Suite 307, Haverford, PA 19041.</p>
+            </div>
+            <div class="col s12 l5 offset-l2">
+                <form action="">
+                    <div class="input-field">
+                        <i class="material-icons prefix">email</i>
+                        <input type="email" id="email">
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">message</i>
+                        <textarea id="message" class="materialize-textarea"></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" id="date" class="datepicker">
+                        <label for="date">Chose a date you need me for...</label>
+                    </div>
+                    <div class="input-field">
+                        <p>Services Required....</p>
+                        <p>
+                            <label>
+                                <input type="checkbox">
+                                <span>Web Development</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox">
+                                <span>Consulting</span>
+                            </label>
+                        </p>
+                    </div>
+                    <div class="input-field center">
+                        <button class="btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer class="page-footer grey darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l6">
+                    <h5>About Us</h5>
+                    <p>Haverford Technologies is comprised of individuals having both significant business and software development
+                        backgrounds.  Our ability to translate your business requirement to technology sets us apart from our
+                        competition.
+                    </p>
+                </div>
+                <div class="col s12 l4 offset-l2">
+                    <h5>Connect</h5>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/joe-staugaard-cfa-2581976"
+                                class="grey-text text-lighten-3">LinkedIn</a></li>
+                        <li><a href="https://twitter.com/JoeStaugaard" class="grey-text text-lighten-3">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright grey darken-4">
+            <div class="container center-align">&copy; 2019 Haverford Technologies</div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="public/assets/js/java.js"></script>
+</body>
+
+</html>
